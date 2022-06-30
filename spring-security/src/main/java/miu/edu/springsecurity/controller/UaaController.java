@@ -1,5 +1,12 @@
 package miu.edu.springsecurity.controller;
 
+import miu.edu.springsecurity.model.LoginRequest;
+import miu.edu.springsecurity.model.LoginResponse;
+import miu.edu.springsecurity.model.RefreshTokenRequest;
+import miu.edu.springsecurity.service.UaaService;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
 @RestController
 @RequestMapping("/api/v1/uaa")
 @CrossOrigin
