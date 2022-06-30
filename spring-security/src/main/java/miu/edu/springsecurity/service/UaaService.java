@@ -7,8 +7,4 @@ import miu.edu.springsecurity.model.RefreshTokenRequest;
 public interface UaaService {
     LoginResponse login(LoginRequest loginRequest);
     LoginResponse refreshToken(RefreshTokenRequest refreshTokenRequest);
-
-    LoginResponse login(LoginRequest loginRequest);
-
-    LoginResponse refreshToken(RefreshTokenRequest refreshTokenRequest);
 }
